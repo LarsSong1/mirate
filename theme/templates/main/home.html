@@ -4,8 +4,25 @@
     {% include "../components/navbar.html" %}
     <div class="max-w-screen-xl mx-auto">
         {% include "../components/searchInput.html" %}
+        <div class="max-w-screen-xl px-4 lg:px-0 mx-auto">
+            <div class="mt-4 space-y-2">
+                <h1 class="lg:text-4xl text-2xl font-bold">Encuentra y Califica</h1>
+                <p class="md:text-base text-md">lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut </p>
+            </div>
+            <div class="mt-2">
+                
+                <h2 class="{% include "components/class/heading.html" %}">Departamentos</h2>
+                <div class="grid lg:col-span-3 gap-4 cols-span-1 mt-4">
+                    <div>
+                        {% include "components/card.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 {% endblock main %}
+
+
 
 
